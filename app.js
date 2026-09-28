@@ -1,4 +1,4 @@
-const API_URL = "http://localhost:3000/usuarios";
+const API_URL = "https://crud-livros-backend.onrender.com/usuarios";
 
 const formulario = document.querySelector("#form-usuario");
 const campoId = document.querySelector("#usuario-id");
@@ -207,7 +207,7 @@ if ("serviceWorker" in navigator) {
 listarUsuarios();
 
 
-const API_URL_LIVROS = "http://localhost:3000/livros";
+const API_URL_LIVROS = "https://crud-livros-backend.onrender.com/livros";
 
 const formularioLivro = document.querySelector("#form-livro");
 const campoLivroId = document.querySelector("#livro-id");
